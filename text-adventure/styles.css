@@ -1,0 +1,179 @@
+html {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  text-align: center;
+  font-family: helvetica, sans-serif;
+}
+
+a {
+  color: #000;
+}
+
+.container {
+  width: 80%;
+  height: 100%;
+  margin: 0 auto;
+}
+
+.water-img img {
+  width: 150px;
+}
+
+.choices {
+  width: 100%;
+  height: 100%;
+}
+
+.left {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.left-door {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.left-door img {
+  width: 100px;
+}
+
+.left img {
+  width: 250px;
+}
+
+.right {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.right-door {
+  float: left;
+  width: 50%;
+  height: 100%;
+}
+
+.right-door img {
+  width: 220px;
+}
+
+.right img {
+  width: 350px;
+}
+
+.dark {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 250px;
+  background: #282828;
+  border-radius: 50px;
+}
+
+.dark:hover {
+  background: #000;
+}
+
+.light {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 250px;
+  height: 250px;
+  background: #fffa00;
+  border-radius: 50px;
+}
+
+.light:hover {
+  background: #999600;
+}
+
+.drink-water {
+  background: #00f2e6;
+}
+
+.dog-water {
+  background: #996300;
+}
+
+.continue {
+  width: 300px;
+  background: #000;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.continue h3 {
+  color: #fff;
+}
+
+.the-end {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.fire {
+  margin: 0 auto;
+  width: 200px;
+  height: 350px;
+  background: brown;
+}
+
+.fire img {
+  position: relative;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.water {
+  margin: 0 auto;
+  width: 200px;
+  height: 350px;
+  background: brown;
+}
+
+.water img {
+  position: relative;
+  width: 100px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.door-1 {
+  margin: 0 auto;
+  width: 200px;
+  height: 350px;
+  background: brown;
+}
+
+.door-1 p {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  color: #fff;
+}
+
+.door-2 {
+  margin: 0 auto;
+  width: 200px;
+  height: 350px;
+  background: brown;
+}
+
+.door-2 img {
+  position: relative;
+  width: 150px;
+  top: 90%;
+}
