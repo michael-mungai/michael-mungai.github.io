@@ -1,3 +1,22 @@
 body {
   font-family: Helvetica, sans-serif;
+  background-color: #ffaa00;
+}
+
+h1 {
+  color: pink;
+  background-color: white;
+  border: 2px solid red;
+}
+
+#header {
+  color: yellow;
+}
+
+.phone-number {
+  font-weight: bold;
+}
+
+.international {
+  font-style: italic;
 }
