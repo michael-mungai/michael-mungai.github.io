@@ -118,7 +118,7 @@ for (var i = 0; i < 10; i = i + 1) {
 
 document.write('<br />');
 
-document.write('<h2>6</h2>');
+document.write('<h2>7</h2>');
 for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
@@ -138,7 +138,7 @@ for (var i = 0; i < 10; i = i + 1) {
 
 document.write('<br />');
 
-document.write('<h2>6</h2>');
+document.write('<h2>8</h2>');
 for (var i = 0; i < 10; i = i + 1) {
     for (var j = 0; j < 10; j = j + 1) {
         console.log("Row " + i + ", Column " + j);
