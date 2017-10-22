@@ -1,0 +1,70 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+body {
+  font-family: Helvetica, arial;
+  background: pink;
+}
+
+.container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+#clock-container {
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 1248px;
+  height: 600px;
+  background: teal;
+}
+
+#second-block {
+  position: absolute;
+  width: 90px;
+  height: 10px;
+  background: pink;
+  margin: 0 5px;
+}
+
+#secs {
+  position: absolute;
+  width: 50px;
+  height: 10px;
+  z-index: 999;
+  background: red;
+  opacity: .5;
+  margin: 0 1px;
+}
+
+#block {
+  position: fixed;
+  width: 50px;
+  height: 100px;
+  background: orange;
+  margin: 0 1px;
+  z-index: 2;
+  margin: 0 1px;
+}
+
+#hour-container {
+  position: absolute;
+  width: auto;
+  height: auto;
+  background: pink;
+}
+
+#hour-blocks {
+  position: relative;
+  width: 50px;
+  height: 600px;
+  background: turquoise;
+  float: left;
+  z-index: 1;
+  margin: 0 1px;
+}

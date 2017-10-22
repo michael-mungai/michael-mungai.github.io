@@ -1,0 +1,64 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Julius+Sans+One|Lato:100,300,400,700,900');
+
+/* General */
+
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+body {
+  width: 100vw;
+  height: auto;
+  margin: 0;
+  background-color: #fff;
+  color: #000;
+  font-family: 'Lato', 'Helvetica', sans-serif;
+}
+
+body::-webkit-scrollbar { width: 0 !important }
+
+h1{font-size: 32px;}h2{font-size: 24px;}h3{font-size: 18px;}h4{font-size: 16px;}h5{font-size: 14px;}h6{font-size: 11px;}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+/* Appropriate Page */
+
+.appropriate {
+  width: 100%;
+  overflow: hidden;
+}
+
+.appro-header {
+  text-align: justify;
+  text-align-last: center;
+  padding: 0 20px;
+}
+
+.appro-title {
+  padding: 20px 0;
+}
+
+.appro-description {
+  padding: 0 100px 20px 100px;
+}
+
+.appro-description h3 {
+  font-weight: 300;
+}
+
+.appro-img-container {
+  width: 60%;
+  margin: 0 auto;
+  padding: 25px 50px;
+}
+
+.appro-img-container img {
+  max-width: 100%;
+  box-shadow: 0 0 20px #4c4c4c;
+}

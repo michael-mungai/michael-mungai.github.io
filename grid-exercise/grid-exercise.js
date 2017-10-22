@@ -157,3 +157,72 @@ for (var i = 0; i < 10; i = i + 1) {
 }
 
 document.write('<br />');
+
+function updateTime () {
+  var clockHolder = document.getElementById("clock");
+  var now = new Date ();
+  var seconds = now.getSeconds();
+  now = now.toTimeString();
+
+  if (seconds < 1) {
+    clockHolder.style.color = "red";
+  } else if (seconds < 2) {
+    //green
+    clockHolder.style.color = "green";
+  } else {
+    //blue
+    clockHolder.style.color = "blue";
+  }
+
+  clockHolder.innerHTML = now;
+}
+
+setInterval(updateTime, 1000);
+
+/* function fallDown() {
+  for (var i = 0; i < 1; i++) {
+    fall += 10;
+    block.style.top = (fall + "px");
+    console.log(i);
+  }
+}
+  setInterval(fallDown, 1000); */
+
+/* var fall = 0;
+var block = document.getElementById("second-block");
+var fallAction = block.style.top;
+block.style.top = fall;
+var now = new Date ();
+var seconds = now.getSeconds();
+now = now.toTimeString();
+var secs = 60;
+for (var i = 1; i <= secs; i++){
+
+}; */
+
+/*var counter = 0;
+var i = setInterval(function(){
+    console.log(i);
+
+    counter++;
+    if(counter === 60) {
+        clearInterval(i);
+    }
+}, 1000); */
+
+
+
+
+ var i = 1;                     //  set your counter to 1
+
+function myLoop () {           //  create a loop function
+   setTimeout(function () {    //  call a 3s setTimeout when the loop is called
+      console.log(i);         //  your code here
+      i++;                     //  increment the counter
+      if (i < 10) {            //  if the counter < 10, call the loop function
+         myLoop();             //  ..  again which will trigger another
+      }                        //  ..  setTimeout()
+   }, 1000)
+}
+
+myLoop();                      //  start the loop

@@ -141,45 +141,9 @@ a {
   position: relative;
   display: inline;
   padding: 5px;
-  background: #fff;
+  background: #dedede;
   top: 6px;
   font-family: 'Lato', 'Helvetica', sans-serif;
   font-weight: 300;
   font-size: 20px;
-}
-
-/* Appropriate Page */
-
-.appropriate {
-  width: 100%;
-  overflow: hidden;
-}
-
-.appro-header {
-  text-align: justify;
-  text-align-last: center;
-  padding: 0 20px;
-}
-
-.appro-title {
-  padding: 20px 0;
-}
-
-.appro-description {
-  padding: 0 100px 20px 100px;
-}
-
-.appro-description h3 {
-  font-weight: 300;
-}
-
-.appro-img-container {
-  width: 60%;
-  margin: 0 auto;
-  padding: 25px 50px;
-}
-
-.appro-img-container img {
-  max-width: 100%;
-  box-shadow: 0 0 50px #4c4c4c;
 }
