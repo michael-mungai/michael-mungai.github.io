@@ -1,0 +1,113 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+html {
+  font-family: Helvetica;
+}
+
+.toy {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  background: black;
+}
+
+.toy-container {
+  position: absolute;
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  height: 400px;
+  background: teal;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+}
+
+.start-button {
+  position: absolute;
+  left: 200px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+#start {
+  padding: 5px;
+  background: red;
+  cursor: pointer;
+}
+
+#start h1 {
+  color: #fff;
+}
+
+#start h1:hover {
+  color: #000;
+}
+
+.level {
+  position: absolute;
+  left: 200px;
+  top: 200px;
+}
+
+#level {
+  padding: 5px;
+  background: #fff;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+}
+
+.red {
+	background: #A80000;
+}
+
+.red-active {
+  background: #FF0000 !important;
+}
+
+.red:active {
+  background: #FF0000 !important;
+}
+
+.green {
+	background: #00661B;
+}
+
+.green-active {
+  background: #01BF34 !important;
+}
+
+.green:active {
+  background: #01BF34 !important;
+}
+
+.blue {
+	background: #0144A3;
+}
+
+.blue-active {
+  background: #006Aff !important;
+}
+
+.blue:active {
+  background: #006Aff !important;
+}
+
+.yellow {
+	background: #9e9b01;
+}
+
+.yellow-active {
+  background: #fffa00 !important;
+}
+
+.yellow:active {
+  background: #fffa00 !important;
+}
